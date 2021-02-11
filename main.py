@@ -1,13 +1,8 @@
 import sys
-
 import requests
-
 import threading
-
 import keyboard
-
 import os
-
 
 def thread_request():
     if sys.argv[2] == 0:
